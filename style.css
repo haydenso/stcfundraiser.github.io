@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,500,700,800,900');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5vh;
+    padding-bottom: 2.5%;
+    padding-right: 5%;
+    background-color: Transparent;
+  }
+
+#bg{
+    border: 0px;
+    left: -1%;
+    top: -1%;
+    position: fixed;
+    z-index: -1;   
+    max-width: 100%; 
+}
+
+.nav__links {   
+    list-style: none;
+    display: flex;
+    justify-items: flex-end;
+    }
+
+.nav__links a {
+    padding: 0px 40px;
+    font-family: "Muli";
+    font-weight: 700;
+    font-size: 35px;
+    color: #2D7EB6;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    }
+
+.nav__links a:hover {
+    color: Black;
+    }
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    height: 80%;
+}
+
+.logos{
+    margin-top: 2%;
+    z-index: 0;
+}
+
+#ru_logo{
+    max-width: 42%;
+}
+
+#x{
+    max-height: 2%;
+    max-width: 35%;
+}
+
+#sc_logo{
+    max-width: 23%;
+    padding-bottom: 10%;
+}
+
+ #About, #Donate{
+    position: relative;
+    font-family: "Muli";
+    font-weight: 500;
+    font-size: 35px;
+    height: 100%;
+    background:White;
+    display: flex;
+    width: 100%;
+}
+
+#block{
+    width: 40%;
+    height: 50%;
+    background-color:  #E9FBFF;
+    margin: 13% 5%;
+}
+
+footer{
+    display: flex;
+    height: 10%;
+    max-width: 100%;
+    background-color: #E9FBFF;
+}
+
+#ftext{
+    color: Black;
+    font-family: Muli;
+    font-weight: 500;
+}
+
+#up {
+    text-decoration: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 1px; /* Place the button at the bottom of the page */
+    right: 2%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: Transparent; /* Set a background color */
+    color: black; /* Text color */
+    font-size: 600%;
+    cursor: pointer; /* Add a mouse pointer on hover */
+  }
