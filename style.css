@@ -85,6 +85,7 @@ header {
     background:white;
     display: flex;
     width: 100%;
+    padding: 0%;
 }
 
 #Donate{
@@ -97,6 +98,7 @@ header {
     background:#E9FBFF;
     display: flex;
     width: 100%;
+    padding: 0%;
 }
 
 #block{
