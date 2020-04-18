@@ -29,10 +29,14 @@
             <div id="block"></div>
         </div>
         <div id="Donate">
-            <p>Donate</p>
-            <a id="paypal" href="#">   <!--PAYPAL LINK-->
+            <p id="dtp">Donate through PayPal™</p>
+            <a id="paypal" onClick="windowalert()" href="https://www.paypal.com/us/home">   <!--PAYPAL LINK-->
                 <img id="paypal_logo" src="Images/paypal.png" alt="PayPal Logo">
             </a>
+            <div class="links">
+                <a id="ru" href="http://www.refugeeunion.org/">Refugee Union</a>
+                <a id="pdf" href="#">Download PDF</a>
+            </div>
         </div>
     </section>
     <a id="up" href="#Home">&#8963;</a>
@@ -49,6 +53,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
     <script>
         var rellax = new Rellax('.rellax');
+
+        function windowalert() {
+            window.alert('Thanks for donating :)\nPress OK to redirect to the PayPal donation link');
+        }
     </script>
 
 </html>

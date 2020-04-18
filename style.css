@@ -99,17 +99,20 @@ header {
     left: -1%;
     z-index: 2;
     position: relative;
-    font-family: "Muli";
-    font-weight: 700;
-    font-size: 4vh;
     height: 110%;
     background:#E9FBFF;
     display: flex;
     width: 100%;
-    padding: 0%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#dtp{
+    font-family: "Muli";
+    font-weight: 700;
+    font-size: 5vh;
+    color: #226089;
 }
 
 #paypal_logo{
@@ -118,11 +121,30 @@ header {
     border-radius: 10%;
 }
 
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ru, #pdf{
+    width: auto + 10px;
+    height: auto + 1px;
+    border-radius: 2%;
+    text-decoration: none;
+    padding: 50px;
+    font-family: "Muli";
+    font-weight: 700;
+    font-size: 150%;
+    color: #4592af;
+    font-style: italic;
+}
 
 footer{
     display: flex;
     justify-content: space-around;
-    height: 10%;
+    height: 20%;
     max-width: 100%;
     background-color: white;
     align-items: center;
@@ -171,7 +193,7 @@ footer{
     outline: none; /* Remove outline */
     background-color: Transparent; /* Set a background color */
     color: black; /* Text color */
-    font-size: 500%;
+    font-size: 350%;
     cursor: pointer; /* Add a mouse pointer on hover */
 }
 
