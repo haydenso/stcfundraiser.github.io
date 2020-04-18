@@ -191,7 +191,7 @@ footer{
     }
     #paypal_logo{
         height: auto;
-        max-width: 30%;
+        width: 40px;
         border-radius: 10%;
     }
 }
