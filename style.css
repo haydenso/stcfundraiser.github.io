@@ -24,7 +24,7 @@ header {
     left: -1%;
     top: -1%;
     position: fixed;
-    z-index: -1;   
+    z-index: -99;   
     max-width: 100%; 
 }
 
@@ -38,7 +38,7 @@ header {
     padding: 0px 40px;
     font-family: "Muli";
     font-weight: 700;
-    font-size: 35px;
+    font-size: 190%;
     color: #2D7EB6;
     text-decoration: none;
     transition: all 0.3s ease 0s;
@@ -58,7 +58,7 @@ header {
 
 .logos{
     margin-top: 2%;
-    z-index: 0;
+    z-index: -2;
 }
 
 #ru_logo{
@@ -66,8 +66,8 @@ header {
 }
 
 #x{
-    max-height: 2%;
-    max-width: 35%;
+    max-height: auto;
+    max-width: 20%;
 }
 
 #sc_logo{
@@ -76,6 +76,7 @@ header {
 }
 
  #About, #Donate{
+    z-index: 2;
     position: relative;
     font-family: "Muli";
     font-weight: 500;
@@ -89,18 +90,20 @@ header {
 #block{
     width: 40%;
     height: 50%;
-    background-color:  #E9FBFF;
+    background-color:  #EE3120;
     margin: 13% 5%;
 }
 
 footer{
     display: flex;
+    justify-content: center;
     height: 10%;
     max-width: 100%;
     background-color: #E9FBFF;
 }
 
 #ftext{
+    padding-top: 2vh;
     color: Black;
     font-family: Muli;
     font-weight: 500;
