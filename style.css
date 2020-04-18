@@ -189,4 +189,9 @@ footer{
         padding-right: 5%;
         font-size: 500%;
     }
+    #paypal_logo{
+        height: auto;
+        max-width: 25vh;
+        border-radius: 10%;
+    }
 }
