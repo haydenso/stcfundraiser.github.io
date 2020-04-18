@@ -75,14 +75,26 @@ header {
     padding-bottom: 10%;
 }
 
- #About, #Donate{
+#About{
     z-index: 2;
     position: relative;
     font-family: "Muli";
     font-weight: 500;
     font-size: 35px;
     height: 100%;
-    background:White;
+    background:white;
+    display: flex;
+    width: 100%;
+}
+
+#Donate{
+    z-index: 2;
+    position: relative;
+    font-family: "Muli";
+    font-weight: 500;
+    font-size: 35px;
+    height: 100%;
+    background:#E9FBFF;
     display: flex;
     width: 100%;
 }
@@ -96,17 +108,45 @@ header {
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 10%;
     max-width: 100%;
-    background-color: #E9FBFF;
+    background-color: white;
+    align-items: center;
 }
 
 #ftext{
-    padding-top: 2vh;
     color: Black;
     font-family: Muli;
-    font-weight: 500;
+    font-size: 170%;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fa {
+    padding: 0% 6%;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #EE3120;
+}
+
+.fa-instagram, .fa-google, .fa-facebook {
+    background: Transparent;
+    color: black;
 }
 
 #up {
@@ -121,4 +161,4 @@ footer{
     color: black; /* Text color */
     font-size: 600%;
     cursor: pointer; /* Add a mouse pointer on hover */
-  }
+}
