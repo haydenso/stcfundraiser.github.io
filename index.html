@@ -19,9 +19,9 @@
                 </nav>
             </header>
             <section class="box" >
-                <img class="logos" id="ru_logo" src="Images/refugeeunion.png">
-                <img class="logos" id="x" src="Images/X.png">
-                <img class="logos" id="sc_logo" src="Images/stucon.png">
+                <img class="logos rellax" id="ru_logo" src="Images/refugeeunion.png" data-rellax-speed="-2">
+                <img class="logos rellax" id="x" src="Images/X.png" data-rellax-speed="-2">
+                <img class="logos rellax" id="sc_logo" src="Images/stucon.png" data-rellax-speed="-3.5">
             </section>
             <img id="bg" src="Images/bg.png">
         </div>
@@ -29,7 +29,10 @@
             <div id="block"></div>
         </div>
         <div id="Donate">
-            <h1>Donate</h1>
+            <p>Donate</p>
+            <a id="paypal" href="#">   <!--PAYPAL LINK-->
+                <img id="paypal_logo" src="Images/paypal.png" alt="PayPal Logo">
+            </a>
         </div>
     </section>
     <a id="up" href="#Home">&#8963;</a>
@@ -42,4 +45,10 @@
         </div>
     </footer>
     </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
+
 </html>
