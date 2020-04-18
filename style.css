@@ -50,7 +50,6 @@ header {
     }
 
 .box{
-    position: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -74,7 +73,7 @@ header {
 }
 
 #About{
-    margin-top: 100vh;
+    margin-top: 10vh;
     z-index: 2;
     position: relative;
     font-family: "Muli";
@@ -119,7 +118,7 @@ footer{
     color: Black;
     font-family: Muli;
     font-size: 3vh;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .icons{
