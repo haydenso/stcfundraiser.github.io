@@ -14,8 +14,9 @@ header {
     display: flex;
     justify-content: flex-end;
     padding-top: 5vh;
-    padding-bottom: 2.5%;
+    padding-bottom: 10vh;
     padding-right: 5%;
+    padding-left: 0%;
     background-color: Transparent;
   }
 
@@ -38,7 +39,7 @@ header {
     padding: 0px 40px;
     font-family: "Muli";
     font-weight: 700;
-    font-size: 180%;
+    font-size: 4vh;
     color: #2D7EB6;
     text-decoration: none;
     transition: all 0.3s ease 0s;
@@ -49,25 +50,22 @@ header {
     }
 
 .box{
+    position: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     align-content: space-around;
-    height: 80%;
+    height: 100vh;
 }
 
 .logos{
-    margin-top: 2%;
+    margin-top: 3vh;
     z-index: -2;
+    max-width: 5vh;
 }
 
 #ru_logo{
     max-width: 42%;
-}
-
-#x{
-    max-height: auto;
-    max-width: 20%;
 }
 
 #sc_logo{
@@ -76,6 +74,7 @@ header {
 }
 
 #About{
+    margin-top: 100vh;
     z-index: 2;
     position: relative;
     font-family: "Muli";
@@ -85,7 +84,6 @@ header {
     background:white;
     display: flex;
     width: 100%;
-    padding: 0%;
 }
 
 #Donate{
@@ -120,7 +118,7 @@ footer{
 #ftext{
     color: Black;
     font-family: Muli;
-    font-size: 170%;
+    font-size: 3vh;
     font-weight: 700;
 }
 
@@ -132,16 +130,15 @@ footer{
 
 .fa {
     padding: 0% 6%;
-    font-size: 30px;
+    font-size: 4vh;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 2%;
-    border-radius: 50%;
     transition: all 0.3s ease 0s;
 }
 
-.fa:hover {
+.fa:hover, #up:hover{
     opacity: 0.7;
     color: #EE3120;
 }
@@ -154,13 +151,13 @@ footer{
 #up {
     text-decoration: none;
     position: fixed; /* Fixed/sticky position */
-    bottom: 1px; /* Place the button at the bottom of the page */
-    right: 2%; /* Place the button 30px from the right */
+    bottom: 1vh;
+    right: 2%; 
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: Transparent; /* Set a background color */
     color: black; /* Text color */
-    font-size: 600%;
+    font-size: 500%;
     cursor: pointer; /* Add a mouse pointer on hover */
 }
