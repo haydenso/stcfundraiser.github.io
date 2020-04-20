@@ -15,7 +15,7 @@ header {
     justify-content: flex-end;
     padding-top: 5vh;
     padding-bottom: 10vh;
-    padding-right: 5%;
+    /*padding-right: 5%;*/
     padding-left: 0%;
     background-color: Transparent;
   }
@@ -26,7 +26,7 @@ header {
     top: -1%;
     position: fixed;
     z-index: -99;   
-    max-width: 100%; 
+    max-width: 110%; 
 }
 
 .nav__links {   
@@ -73,7 +73,6 @@ header {
 }
 
 #About{
-    left: -1%;
     border: 0;
     margin-top: 10vh;
     z-index: 2;
@@ -84,7 +83,7 @@ header {
     height: 110%;
     background:white;
     display: flex;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -100,9 +99,9 @@ header {
     z-index: 2;
     position: relative;
     height: 110%;
-    background:#E9FBFF;
+    background:#fed8a7;
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -112,10 +111,11 @@ header {
     font-family: "Muli";
     font-weight: 700;
     font-size: 5vh;
-    color: #226089;
+    color: #000000;
 }
 
 #paypal_logo{
+    margin-top: 7vh;
     height: auto;
     max-width: 50vh;
     border-radius: 10%;
@@ -124,38 +124,42 @@ header {
 .links{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-#ru[type=button], #pdf[type=button]{
-    flex: 1;
-    padding: 25px 50px;
-    margin: 25px;
+#ru, #pdf{
+    width: 42vh;
+    height: 5vh;
+    margin-top: 5%;
     border-radius: 999px;
-    border: 5px solid #284cff;
-    font-family: "Muli", monospace;
-    font-size: 25px;
-    text-shadow: 0 3px 5px rgba(#000, 0.25);
-    white-space: nowrap;
-    color: #fff;
+    border: 2px solid #07a4b5;
+    font-family: "Muli";
+    letter-spacing: 0.1em; 
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #262626;
+    text-decoration: none;
     background: transparent;
-    background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
+    background-image: url('Images/wave2.png');
     background-repeat: repeat-x;
-    background-position: 0 -100%;
-    transition: 1.5s ease;
+    background-position: 0 -80%;
+    transition: 1.5s;
 }
         
 #ru:hover, #pdf:hover{
-          background-position: 500% 100%;
-    }
+    transition: 1.5s ease-out;
+    background-position: 500% 100%;
+}
 
 footer{
     display: flex;
     justify-content: space-around;
     height: 20%;
     max-width: 100%;
-    background-color: white;
+    background-color: #f9fcfd;
     align-items: center;
 }
 
