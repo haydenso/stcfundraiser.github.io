@@ -23,6 +23,8 @@
         <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -36,8 +38,8 @@
                 </nav>
             </header>
             <section class="box" >
-                <img class="logos rellax" id="ru_logo" src="Images/refugeeunion.png" data-rellax-speed="-2">
-                <img class="logos rellax" id="x" src="Images/X.png" data-rellax-speed="-2">
+                <img class="logos rellax animated swing" id="ru_logo" src="Images/refugeeunion.png" data-rellax-speed="-2">
+                <img class="logos rellax animated bounce" id="x" src="Images/X.png" data-rellax-speed="-2">
                 <img class="logos rellax" id="sc_logo" src="Images/stucon.png" data-rellax-speed="-3.5">
             </section>
             <img id="bg" src="Images/bg.png">
@@ -46,11 +48,11 @@
             <div id="block"></div>
         </div>
         <div id="Donate">
-            <p id="dtp">Want to support them?</p>
+            <p id="dtp" data-aos="fade-up" data-aos-anchor-placement="top-bottom" >Want to support them?</p>
             <a id="paypal" onClick="windowalert()" href="https://www.paypal.com/us/home">   <!--PAYPAL LINK-->
-                <img id="paypal_logo" src="Images/paypal.png" alt="PayPal Logo">
+                <img data-aos="zoom-out-down" data-aos-duration="1000" id="paypal_logo" src="Images/paypal.png" alt="PayPal Logo">
             </a>
-            <div class="links">
+            <div class="links" data-aos="fade-right" data-aos-duration="1000" >
                 <a id="ru" href="http://www.refugeeunion.org/">Refugee Union</a>
                 <a id="pdf" href="#">Download PDF</a>
             </div>
@@ -58,8 +60,8 @@
     </section>
     <a id="up" href="#Home">&#8963;</a>
     <footer>
-        <p id="ftext">©2020 Sha Tin College Student Council </p>
-        <div class="icons">
+        <p data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" id="ftext">©2020 Sha Tin College Student Council </p>
+        <div class="icons" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <a href="https://www.facebook.com/stcstudentcouncil/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/stc.studentcouncil/" class="fa fa-instagram"></a>
             <a href="https://scstucon.wixsite.com/studentcouncil" class="fa fa-google"></a>
@@ -67,13 +69,15 @@
     </footer>
     </body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         var rellax = new Rellax('.rellax');
 
         function windowalert() {
             window.alert('Thanks for donating :)\nPress OK to redirect to the PayPal donation link');
         }
-    </script>
 
+        AOS.init();
+    </script>
 </html>
