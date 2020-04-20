@@ -128,18 +128,27 @@ header {
     align-items: center;
 }
 
-#ru, #pdf{
-    width: auto + 10px;
-    height: auto + 1px;
-    border-radius: 2%;
-    text-decoration: none;
-    padding: 50px;
-    font-family: "Muli";
-    font-weight: 700;
-    font-size: 150%;
-    color: #4592af;
-    font-style: italic;
+#ru[type=button], #pdf[type=button]{
+    flex: 1;
+    padding: 25px 50px;
+    margin: 25px;
+    border-radius: 999px;
+    border: 5px solid #284cff;
+    font-family: "Muli", monospace;
+    font-size: 25px;
+    text-shadow: 0 3px 5px rgba(#000, 0.25);
+    white-space: nowrap;
+    color: #fff;
+    background: transparent;
+    background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 1.5s ease;
 }
+        
+#ru:hover, #pdf:hover{
+          background-position: 500% 100%;
+    }
 
 footer{
     display: flex;
