@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,500,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 html{
     scroll-behavior: smooth;
@@ -21,12 +28,10 @@ header {
   }
 
 #bg{
-    border: 0;
-    left: -1%;
     top: -1%;
     position: fixed;
     z-index: -99;   
-    max-width: 110%; 
+    max-width: 100%; 
 }
 
 .nav__links {   
@@ -98,27 +103,33 @@ header {
     left: -1%;
     z-index: 2;
     position: relative;
-    height: 110%;
+    height: 100%;
     background:#fed8a7;
     display: flex;
     width: 100vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #dtp{
     font-family: "Muli";
     font-weight: 700;
-    font-size: 5vh;
+    font-size: 300%;
     color: #000000;
 }
 
+#empha{
+    font-weight: 800;
+    color: #2D7EB6;
+}
+
 #paypal_logo{
-    margin-top: 7vh;
+    margin-top: 12%;
     height: auto;
-    max-width: 50vh;
-    border-radius: 10%;
+    max-width: 110vh;
+    border-radius: 999px;
 }
 
 .links{
@@ -129,17 +140,18 @@ header {
 }
 
 #ru, #pdf{
-    width: 42vh;
-    height: 5vh;
-    margin-top: 5%;
+    width: 24%;
+    height: 5.5vh;
+    line-height: 5vh;
+    margin-top: 15vh;
     border-radius: 999px;
-    border: 2px solid #07a4b5;
+    border: 2px solid #2D7EB6;
     font-family: "Muli";
     letter-spacing: 0.1em; 
-    font-weight: 400;
+    font-weight: 800;
     text-align: center;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 17px;
     color: #262626;
     text-decoration: none;
     background: transparent;
@@ -154,10 +166,15 @@ header {
     background-position: 500% 100%;
 }
 
+#id{
+    font-family: "Muli";
+    font-weight: 900;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
-    height: 20%;
+    height: 18%;
     max-width: 100%;
     background-color: #f9fcfd;
     align-items: center;
@@ -211,8 +228,11 @@ footer{
 }
 
 @media only screen and (max-width: 680px) {
+    footer{
+        height: 20%;
+    }
     #bg{
-        max-width: 2000vh;
+        max-width: 10000vh;
     }
     #ftext{
         color: Black;
@@ -221,12 +241,23 @@ footer{
         font-weight: 600;
     }
     #up{
-        padding-right: 5%;
-        font-size: 500%;
+        display: none;
     }
     #paypal_logo{
         height: auto;
         width: 40px;
+        border-radius: 10%;
+    }
+    #dtp{
+        font-family: "Muli";
+        font-weight: 700;
+        font-size: 4vh;
+        color: #000000;
+    }
+    #paypal_logo{
+        margin-top: 7vh;
+        height: auto;
+        width: 50%;
         border-radius: 10%;
     }
 }
