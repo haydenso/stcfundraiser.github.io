@@ -22,8 +22,8 @@
                 </nav>
             </header>
             <section class="box" >
-                <img class="logos rellax animated swing" id="ru_logo" src="Images/refugeeunion.png" data-rellax-speed="-2">
-                <img class="logos rellax animated bounce" id="x" src="Images/X.png" data-rellax-speed="-2">
+                <img class="logos rellax animated swing" data-aos="zoom-out-down" id="ru_logo" src="Images/refugeeunion.png" data-rellax-speed="-2">
+                <img class="logos rellax animated bounce" data-aos="zoom-out-down" id="x" src="Images/X.png" data-rellax-speed="-2">
                 <img class="logos rellax" id="sc_logo" src="Images/stucon.png" data-rellax-speed="-3">
             </section>
             <img id="bg" src="Images/bg.png">
@@ -59,7 +59,7 @@
         var rellax = new Rellax('.rellax');
 
         function windowalert() {
-            window.alert('Thanks for donating :)\nPress OK to redirect to the PayPal donation link');
+            window.alert('Thanks for donating :)\nClose popup to redirect to the PayPal donation link...');
         }
 
         AOS.init();
