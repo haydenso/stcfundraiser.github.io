@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
@@ -133,9 +134,9 @@ header {
 }
 
 #paypal_logo:hover{
-    margin-top: 12%;
+    margin-top: 13%;
     height: auto;
-    width: 80%;
+    width: 105vh;
     border-radius: 999px;
 }
 
@@ -150,7 +151,7 @@ header {
     width: 24%;
     height: 5.5vh;
     line-height: 5vh;
-    margin-top: 15vh;
+    margin-top: 10%;
     border-radius: 999px;
     border: 2px solid #2D7EB6;
     font-family: "Muli";
