@@ -239,8 +239,13 @@ footer{
     footer{
         height: 22%;
     }
+    #home{
+        background-color: #e2f3f5;
+        height: auto;
+        width: 100vh;
+    }
     #bg{
-        display:none;
+        display: none;
     }
     #ftext{
         color: Black;
@@ -265,7 +270,7 @@ footer{
     }
     #ru, #pdf{
         width: 24%;
-        height: 15vh;
+        height: auto;
         line-height: 5vh;
         margin-top: 10%;
         border-radius: 999px;
