@@ -60,7 +60,7 @@ header {
     align-items: center;
     flex-direction: column;
     align-content: space-around;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .logos{
@@ -265,7 +265,6 @@ footer{
     }
     #home{
         background-color: #e2f3f5;
-        height: auto;
         width: 100vh;
     }
     #ftext{
@@ -324,5 +323,8 @@ footer{
     #empha{
         font-weight: 800;
         color: #2D7EB6;
+    }
+    .nav__links a {
+        font-size: 3vh;
     }
 }
