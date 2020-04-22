@@ -237,8 +237,24 @@ footer{
 }
 
 @media only screen and (max-width: 680px) {
+    header{
+        justify-content: center;
+        padding-top: 7vh;
+    }
+    #bg{
+        height: 400%;
+    }
     footer{
         height: 22%;
+    }
+    #ru_logo{
+        max-width: 80%;
+    }
+    .nav__links a {
+        padding: 0px 50px;
+    }
+    #sc_logo{
+        max-width: 50%;
     }
     #ftext{
         padding: 3%;
@@ -252,14 +268,14 @@ footer{
         height: auto;
         width: 100vh;
     }
-    #bg{
-        display: none;
-    }
     #ftext{
         color: Black;
         font-family: Muli;
         font-size: 2vh;
         font-weight: 600;
+    }
+    .logos{
+        margin-top: 6vh;
     }
     #dtp{
         font-family: "Muli";
@@ -272,7 +288,7 @@ footer{
     }
     #paypal_logo2{
         display: block;
-        max-width: 60vw;
+        max-width: 75vw;
         margin-top: 12%;
         height: auto;
         border-radius: 999px;

@@ -56,10 +56,15 @@
     </footer>
     </body>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         var rellax = new Rellax('.rellax');
+
+        if ($(window).width() < 680) {
+            rellax.destroy();      //disabling rellax effect on certain screen sizes with jquery
+        }
 
         function windowalert() {
             window.alert('Thanks for donating :)\nClose popup to redirect to the PayPal donation link...');
