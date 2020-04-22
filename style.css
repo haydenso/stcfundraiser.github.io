@@ -262,14 +262,14 @@ footer{
     #paypal_logo{
         margin-top: 12%;
         height: auto;
-        max-width: 50vh;
+        max-width: 30vh;
         border-radius: 999px;
     }
     #up{
         display: none;
     }
     #ru, #pdf{
-        width: 28%;
+        width: 40%;
         height: auto;
         line-height: 5vh;
         margin-top: 10%;
