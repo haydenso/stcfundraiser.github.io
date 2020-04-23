@@ -400,11 +400,13 @@ footer{
         background: transparent;
     }
     #ourgoal{
+        font-size: 110%;
+        padding-top: 10%;
         text-align: center;
         /* padding-left: 5%; */
     }
     #dtp{
-        padding-left: 20%;
+        padding-left: 10%;
         font-family: "Muli";
         font-weight: 700;
         font-size: 350%;
@@ -412,8 +414,14 @@ footer{
         padding-bottom: 5%
     }
     #empha1::after{
+        padding-top: 2%;
         content: "\A";
         white-space: pre-line;
+    }
+    #empha1{
+        padding-top: 5%;
+        font-weight: 800;
+        color: #2D7EB6;
     }
     #empha2{
         font-weight: 800;
