@@ -164,12 +164,11 @@ header {
 }
 
 #empha1{
+    font-family: "Muli";
     font-weight: 800;
     font-style: bold;
     color: #2D7EB6;
-    font-size: 200%; 
-    font-weight: 800;
-    color: #2D7EB6;
+    font-size: 400%; 
 }
 
 #empha2{
