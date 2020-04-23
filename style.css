@@ -414,7 +414,6 @@ footer{
     #empha1::after{
         content: "\A";
         white-space: pre-line;
-        padding-left: 10%;
     }
     #empha2{
         font-weight: 800;
