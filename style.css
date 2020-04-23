@@ -406,9 +406,10 @@ footer{
         /* padding-left: 5%; */
     }
     #dtp{
+        padding-left: 7%;
         font-family: "Muli";
         font-weight: 700;
-        font-size: 350%;
+        font-size: 330%;
         color: #000000;
         padding-bottom: 5%
     }
