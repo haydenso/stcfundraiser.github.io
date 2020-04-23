@@ -96,6 +96,38 @@ header {
     height: auto;
 }
 
+#Goal{
+    z-index: 2;
+    position: relative;
+    height: 120vh;
+    background:#E9FBFF;
+    display: flex;
+    max-width: 110vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.frame{
+    width: 55vw;
+    height: 65vh;
+    padding-bottom: 6%;
+}
+
+#story{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#ourgoal{
+    font-family: "Muli";
+    font-weight: 700;
+    font-size: 220%;
+    color: black;
+}
+
 #Donate{
     z-index: 2;
     position: relative;
@@ -116,7 +148,14 @@ header {
     color: #000000;
 }
 
-#empha{
+#empha1{
+    font-weight: 800;
+    font-style: bold;
+    color: #2D7EB6;
+    font-size: 200%; 
+}
+
+#empha2{
     font-weight: 800;
     color: #2D7EB6;
 }
@@ -275,7 +314,7 @@ footer{
     .logos{
         margin-top: 6vh;
     }
-    #dtp{
+    #dtp, #ourgoal{
         font-family: "Muli";
         font-weight: 700;
         font-size: 3.5vh;
