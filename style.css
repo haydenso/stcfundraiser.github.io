@@ -111,6 +111,26 @@ header {
     height: auto;
 }
 
+#learnmore{
+    margin-top: 6%;
+    padding-top: 1%;
+    font-family: "Muli";
+    font-weight: 800;
+    font-style: bold;
+    color: #2D7EB6;
+    font-size: 110%;
+    cursor: pointer;
+    width: 20%;
+    height: 5vh;
+    border-radius: 999px;
+    border: 2px solid #2D7EB6;
+    font-family: "Muli";
+    letter-spacing: 0.1em; 
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle;
+}
+
 #Goal{
     z-index: 2;
     position: relative;
@@ -127,7 +147,7 @@ header {
 .frame{
     width: 55vw;
     height: 65vh;
-    padding-bottom: 6%;
+    padding-bottom: 4%;
 }
 
 #story{
