@@ -357,6 +357,9 @@ footer{
         font-size: 2vh;
         font-weight: 600;
     }
+    #learnmore{
+        width: 53%;
+    }
     .logos{
         margin-top: 6vh;
     }
@@ -397,7 +400,8 @@ footer{
         background: transparent;
     }
     #ourgoal{
-        padding-left: 20%;
+        text-align: center;
+        padding-left: 10%;
     }
     #dtp{
         padding-left: 20%;
@@ -410,6 +414,7 @@ footer{
     #empha1::after{
         content: "\A";
         white-space: pre-line;
+        padding-left: 10%;
     }
     #empha2{
         font-weight: 800;
