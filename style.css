@@ -443,4 +443,9 @@ footer{
     .nav__links a {
         font-size: 3vh;
     }
+    .frame{
+        width: 80vw;
+        height: 65vh;
+        padding-bottom: 4%;
+    }
 }
