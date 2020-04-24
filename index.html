@@ -24,7 +24,8 @@
             <section class="box" >
                 <img class="logos" data-aos="zoom-out-down" id="ru_logo" src="Images/refugeeunion.png">
                 <img class="logos" data-aos="zoom-out-down" id="x" src="Images/X.png">
-                <img class="logos rellax" id="sc_logo" src="Images/stucon.png" data-rellax-speed="-3">
+                <img class="logos" id="sc_logo" src="Images/stucon.png">
+                <p id="scrolldown">Scroll Down ↓</p>
             </section>
             <img id="bg" src="Images/bg.png">
         </div>
@@ -67,16 +68,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        var rellax = new Rellax('.rellax');
-
-        if ($(window).width() < 680) {
-            rellax.destroy();      //disabling rellax effect on certain screen sizes with jquery
-        }
-
         function windowalert() {
             window.alert('Thanks for donating :)\nClose popup to redirect to the PayPal donation link...');
         }
-
         AOS.init();
     </script>
 </html>

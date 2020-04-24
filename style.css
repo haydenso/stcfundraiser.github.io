@@ -69,6 +69,10 @@ header {
     max-width: 5vh;
 }
 
+#scrolldown{
+    display: none;
+}
+
 #ru_logo{
     max-width: 42%;
 }
@@ -339,6 +343,15 @@ footer{
     }
     #sc_logo{
         max-width: 50%;
+        padding-bottom: 15%;
+    }
+    #scrolldown{
+        display: block;
+        font-family: Muli;
+        font-size: 120%;
+        font-weight: 700;
+        color: #2D7EB6;
+        padding-bottom: 8%;
     }
     #ftext{
         padding: 3%;
